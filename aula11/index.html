@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" sizes="">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="">
+    </picture>
+    <h1>Áudio</h1>
+    <p>Áudio em HTML5</p>
+    <audio preload="auto" autoplay controls loop muted>
+        <source src="midia/Go! - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/Go! - NEFFEX.ogg" type="audio/ogg">
+        <source src="midia/Go! - NEFFEX.wav" type="audio/wav">
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>

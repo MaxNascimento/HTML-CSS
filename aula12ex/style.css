@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+   text-shadow: 5px 5px rgb(27, 27, 27);
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+section{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(95, 93, 93);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(27, 27, 27);
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+
+img:hover{
+    border: 2px solid rgb(27, 27, 27);
+    box-shadow: 2px 2px rgb(27, 27, 27);
+
+}
+a{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+iframe{
+   border-radius: 10px;
+   height: 500px;
+}
